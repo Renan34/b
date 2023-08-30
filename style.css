@@ -1,0 +1,561 @@
+   @import url('https://fonts.googleapis.com/css2? família=Kdam+Thmor+Pro&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Tektur&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 45%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+li{
+    color: #ffffffe3;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .4s;
+    font-family: 'Tektur', sans-serif;
+    border-bottom: 4px solid #ffffff17;
+    border-radius: 50%;
+    padding: 4px 15px 4px 15px; 
+    
+}
+li:hover{
+    color: #d21617;
+}
+.logo{
+    width: 120px;
+    height: 70px;
+}
+#banner {
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2020/11/the-batman-2020-logo-4k_1606594671-1536x864.jpg.webp');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border: color(srgb-linear black);
+    margin-top: -10px;
+
+}
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.trailer{
+    width: 70%;
+    height: auto;
+    border-radius: 35px;
+    border: 2px solid #ffffff28;
+    margin: 0.5% 5% 1% 5%;
+}
+#sinopse{
+    width: 90%;
+    height: auto;
+    padding: 1%;
+}
+.description{
+    color: azure;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+}
+button{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    background-color: #d21617;
+    color: azure;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Tektur', sans-serif;
+    display: flex;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+#button:hover {
+    background-color: #fff;
+    color: black;
+}
+.actor-cards-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.cards-content-p {
+    row-gap: 50px;
+    column-gap: 30px;
+}
+.cards{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    border: 4px solid #ffffff18;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: azure;
+    font-size: 17px;
+    font-family: 'Tektur', sans-serif;
+}
+.cards:hover{
+    transform: scale(1.02);
+    font-size: 18px;
+    padding: 0 0 20px 20px;
+}
+.banner-1{
+    background-image: url('https://gamebomb.ru/files/galleries/001/5/53/328487.jpg');
+}
+.banner-2{
+    background-image: url('https://i.pinimg.com/originals/72/aa/48/72aa48bae3d14505a6d60d1e400a2add.jpg');
+}
+.banner-3{
+    background-image: url('https://freegametips.com/wp-content/uploads/2019/10/The-Batman-confirms-Jeffrey-Wright-as-its-Commissioner-Gordon.jpg');
+}
+.banner-4{
+    background-image: url('https://th.bing.com/th/id/OIP.rKS2cXhXQQx_s9gcg1Zy9wHaIo?pid=ImgDet&rs=1');
+}
+.banner-5{
+    background-image: url('https://i.pinimg.com/originals/e0/11/4c/e0114cbfec19d90b3318a35d5f2e9a55.jpg');
+}
+.banner-6{
+    background-image: url('https://th.bing.com/th/id/R.fe2eb27cca706f9c04893c70893a1c61?rik=3%2b0xbEcZsxZYWQ&riu=http%3a%2f%2fwww.cinemapassion.com%2fphotos-personnalites%2fMichael-Caine-photo-1015.jpg&ehk=9Y4uk4zCNJxy%2fqAxI5IfCceNwxntM3dcDOUHi1t3VOg%3d&risl=&pid=ImgRaw&r=0');
+}
+.banner-7{
+    background-image: url('https://th.bing.com/th/id/OIP.F7vm9VHo7IeHP_-6_gzscQHaJU?pid=ImgDet&rs=1');
+}
+.banner-8{
+    background-image: url('https://th.bing.com/th/id/OIP.gs__xeoYV451wuEqfGkD5gHaJR?pid=ImgDet&rs=1');
+}
+.banner-9{
+    background-image: url('https://th.bing.com/th/id/R.09b7362fe6f60b7020e0d0b0524ff4cc?rik=F0Duk5ttgS3AKQ&pid=ImgRaw&r=0');
+}
+footer{
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 0;
+}
+span{
+    color: azure;
+    font-family: 'Tektur', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-footer{
+    width: 120px;
+    height: auto;
+}
+.arroba{
+    color: #d21617;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.arroba:hover{
+    font-size: 20px;
+}
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    header {
+        position: static;   
+    }   
+    #banner{
+        background-position: 50%;
+        min-width: 100%;
+        min-height: 100%;
+
+    }
+    #trailer-container{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1%;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .trailer{
+        width: 90%;
+        height: auto;
+    }
+    #button{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards {
+        max-width: 100%;
+        max-height: max-content;
+    }
+    .content-s-sobre {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .actor-cards-conteiner {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .container-img {
+        position: relative !important;
+        min-width: 100%;
+        display: flexbox;
+        align-self: self-start;
+    }
+    .container-texto {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-p-sobre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .blc {
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        column-gap: 20px;
+    }
+ }
+
+ .container-p-sobre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .content-p-sobre{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+    column-gap: 20px;
+ }
+ .container-img { 
+     width: 50%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     
+     position: sticky;
+     top: 0px;
+
+    }
+ .content-img{
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.container-texto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-texto{
+    width: 95%;
+    height: auto;
+    color: azure;
+    font-family: 'Tektur', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.span{
+    background-color: #0d0d0d9a;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+.span:hover{
+    color: #d21617;
+    background-color: #0d0d0d;
+}
+p{
+    text-indent: 3ch;
+    text-align: justify;
+    margin: 0%;
+}
+.h2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 1%;
+    font-weight: 900;
+    font-family: 'Tektur', sans-serif;
+    transition: .4s;
+}
+.h2:hover{
+    color: #d21617;
+}
+.bloco2 {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: color(srgb-linear black);
+}
+.persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.pp {
+    font-size: 24px;
+    border-bottom: 4px solid #ffffff18; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-p-c{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.content-p-c{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.blc {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1% 0 1%;
+    border-bottom: 4px dashed #ffffff18;
+    margin-bottom: 5%;
+}
+.container-img-c {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    background-position: 50% 50%;
+    border-bottom: 4px solid #ffffff18;
+    border-left: 4px solid #ffffff18;
+    border-radius: 50% 0 50% 0;
+    margin: 0 2% 3% 0;
+    padding: 2%;
+}
+.container-texto-c{
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.content-img-c {
+    width: 90px;
+    height: 90px;
+    border: 5px solid cyan;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+}
+.social-media {
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+i {
+    color: #ffffffd0;
+    font-size: 22px;
+    background-color: rgba(255, 0, 0, 0.300);
+    transition: 0.4s;
+}
+i:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.icone-nav {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff69;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.300);
+    transition: 0.4s;
+}
+.icone-nav:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.icone-nav-c {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #ffffff69;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.300);
+    transition: 0.4s;
+}
+.icone-nav-c:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.i {
+    color: #ffffffd0;
+    font-size: 30px;
+    background-color: rgba(255, 0, 0, 0.300);
+    transition: 0.4s;
+}
+.i:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.li{
+    color: #ffffffe3;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .4s;
+    font-family: 'Tektur', sans-serif;
+    border-bottom: 4px solid #ffffff17;
+    border-radius: 50%;
+    padding: 4px 15px 4px 15px;    
+}
+.li:hover{
+    color: #d21617;
+}
+
+
